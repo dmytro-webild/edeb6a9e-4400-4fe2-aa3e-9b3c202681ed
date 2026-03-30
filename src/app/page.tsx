@@ -68,7 +68,7 @@ export default function LandingPage() {
           href: "#financing",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/flowers-vases-postcard-box-books-placed-table_23-2148103291.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/flowers-vases-postcard-box-books-placed-table_23-2148103291.jpg?_wi=1"
       imageAlt="Moda Home Furniture Interior"
     />
   </div>
@@ -102,19 +102,19 @@ export default function LandingPage() {
           id: "p1",
           name: "S320 Texan Grey Sectional",
           price: "$4,499.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=1",
         },
         {
           id: "p2",
           name: "Kingsbury Modern Wood Bedroom Set",
           price: "$1,599.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg?_wi=1",
         },
         {
           id: "p3",
           name: "Rebecca Rectangle Marble Dining Set",
           price: "$2,399.00",
-          imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=1",
         },
       ]}
       title="Shop Our Best Sellers"
@@ -141,7 +141,7 @@ export default function LandingPage() {
           title: "Financing Process",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=2"
       imageAlt="Financing Furniture"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
@@ -161,7 +161,7 @@ export default function LandingPage() {
           quote: "Jose hooked me up in 10 mins! Very friendly, very helpful, and got me the money I needed thank you sir!!!",
           tag: "Satisfied Customer",
           avatarSrc: "http://img.b2bpic.net/free-photo/internationals-people-standing-cafe_1157-32343.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/flowers-vases-postcard-box-books-placed-table_23-2148103291.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/flowers-vases-postcard-box-books-placed-table_23-2148103291.jpg?_wi=2",
           imageAlt: "luxury modern furniture living room",
         },
         {
@@ -172,7 +172,7 @@ export default function LandingPage() {
           quote: "Sells man Sebastian helped us out and gave me a great deal on a leather couch I wanted for years thank you so much I will be back",
           tag: "Returning Buyer",
           avatarSrc: "http://img.b2bpic.net/free-photo/positive-emotions-reaction-feelings-joyful-funny-young-woman-with-dyed-bob-hairstyle-artistic-make-up-screwing-up-eyes-smiling-feeling-shy-laughing-joke-being-good-mood_343059-4357.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=3",
           imageAlt: "modern grey sectional sofa",
         },
         {
@@ -183,7 +183,7 @@ export default function LandingPage() {
           quote: "Excellent service!! Jose was amazing. He worked with my budget and helped me secure the furniture I wanted effortlessly.",
           tag: "Happy Customer",
           avatarSrc: "http://img.b2bpic.net/free-photo/smiley-man-looking-camera-holding-cup-coffee_23-2148306626.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg?_wi=2",
           imageAlt: "solid wood bedroom set",
         },
         {
@@ -194,7 +194,7 @@ export default function LandingPage() {
           quote: "Fantastic selection and very knowledgeable staff. Found the perfect dining set for our family in no time.",
           tag: "Local Customer",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-young-professional-businesswoman-sitting-her-office-answering-phone-call-using-her_1258-194674.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=2",
           imageAlt: "marble dining table set",
         },
         {
