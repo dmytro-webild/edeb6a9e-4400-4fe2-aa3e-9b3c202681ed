@@ -75,7 +75,7 @@ export default function LandingPage() {
         { id: "p3", name: "Rebecca Rectangle Marble Dining Set", price: "$2,399.00", imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=1" },
       ]}
       title="Shop Our Best Sellers"
-      description="Hand-picked comfort and style, now at unbeatable prices."
+      description="Hand-picked durable designs with a 5-year warranty, now at unbeatable prices."
     />
   </div>
 
