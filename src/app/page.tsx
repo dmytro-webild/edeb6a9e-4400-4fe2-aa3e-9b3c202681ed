@@ -70,9 +70,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "S320 Texan Grey Sectional", price: "$4,499.00", imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=1", priceButtonProps: { children: "View Details" } },
-        { id: "p2", name: "Kingsbury Modern Wood Bedroom Set", price: "$1,599.00", imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg?_wi=1", priceButtonProps: { children: "View Details" } },
-        { id: "p3", name: "Rebecca Rectangle Marble Dining Set", price: "$2,399.00", imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=1", priceButtonProps: { children: "View Details" } },
+        { id: "p1", name: "S320 Texan Grey Sectional", price: "$4,499.00", imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=1" },
+        { id: "p2", name: "Kingsbury Modern Wood Bedroom Set", price: "$1,599.00", imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg?_wi=1" },
+        { id: "p3", name: "Rebecca Rectangle Marble Dining Set", price: "$2,399.00", imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=1" },
       ]}
       title="Shop Our Best Sellers"
       description="Featuring durable construction and backed by our industry-leading 5-year warranty for lasting peace of mind."
