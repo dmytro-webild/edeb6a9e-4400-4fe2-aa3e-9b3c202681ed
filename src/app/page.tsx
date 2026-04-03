@@ -10,7 +10,7 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import { Phone, MapPin, Clock } from "lucide-react";
+import { Phone, MapPin, Clock, ShieldCheck, Truck, CreditCard } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -43,7 +43,7 @@ export default function LandingPage() {
       <HeroBillboardScroll
       background={{ variant: "gradient-bars" }}
       title="Redefining Comfort, One Piece at a Time."
-      description="Premium Houston furniture for every lifestyle. From solid oak craftsmanship to modern sectional luxury, enjoy fast nationwide shipping and unbeatable prices. We don't just match prices—we beat them."
+      description="Premium Houston furniture for every lifestyle. From solid oak craftsmanship to modern sectional luxury, enjoy fast nationwide shipping and unbeatable prices. We offer a 5-year warranty on all durable designs."
       buttons={[
         { text: "Shop Best Sellers", href: "#products" },
         { text: "Apply for Financing", href: "#financing" },
@@ -70,12 +70,13 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "S320 Texan Grey Sectional", price: "$4,499.00", imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=1" },
-        { id: "p2", name: "Kingsbury Modern Wood Bedroom Set", price: "$1,599.00", imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg?_wi=1" },
-        { id: "p3", name: "Rebecca Rectangle Marble Dining Set", price: "$2,399.00", imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=1" },
+        { id: "p1", name: "S320 Texan Grey Sectional", price: "$4,499.00", imageSrc: "http://img.b2bpic.net/free-photo/pillow-sofa_74190-2476.jpg?_wi=1", priceButtonProps: { children: "View Details" } },
+        { id: "p2", name: "Kingsbury Modern Wood Bedroom Set", price: "$1,599.00", imageSrc: "http://img.b2bpic.net/free-photo/decorative-pom-poms-used-decorative-vase_23-2149449982.jpg?_wi=1", priceButtonProps: { children: "View Details" } },
+        { id: "p3", name: "Rebecca Rectangle Marble Dining Set", price: "$2,399.00", imageSrc: "http://img.b2bpic.net/free-photo/wedding-table-arrangement-with-flowers_23-2149436427.jpg?_wi=1", priceButtonProps: { children: "View Details" } },
       ]}
       title="Shop Our Best Sellers"
-      description="Hand-picked durable designs with a 5-year warranty, now at unbeatable prices."
+      description="Featuring durable construction and backed by our industry-leading 5-year warranty for lasting peace of mind."
+      buttons={[{ text: "Explore Full Collection", href: "#" }]}
     />
   </div>
 
@@ -83,7 +84,7 @@ export default function LandingPage() {
       <MetricSplitMediaAbout
       useInvertedBackground={true}
       title="Affordable Luxury with Easy Financing"
-      description="Start with an initial payment as low as $29 with no credit needed financing. We believe everyone deserves a beautiful home, regardless of budget."
+      description="Get your dream home today. Our flexible financing allows for low initial payments and fast approvals, perfect for any budget. Includes a 5-year warranty on all furniture."
       metrics={[
         { value: "$29", title: "Initial Payment" },
         { value: "10 min", title: "Approval Time" },
@@ -113,23 +114,28 @@ export default function LandingPage() {
       <ContactCenter
       tag="Connect With Us"
       title="Visit Our Showrooms"
-      description="Experience premium comfort at one of our two convenient Houston locations. Feel free to call us for inventory checks or questions."
+      description="Experience premium comfort at one of our two convenient Houston locations. Schedule a visit or inquire about our 5-year warranty."
       background={{ variant: "animated-grid" }}
       useInvertedBackground={true}
     />
     <div className="grid md:grid-cols-2 gap-8 py-12 px-4 max-w-6xl mx-auto">
-        <div className="p-6 border border-accent rounded-xl space-y-4">
+        <div className="p-6 border border-accent rounded-xl space-y-4 shadow-sm bg-card">
             <div className="flex items-center gap-2 text-primary-cta font-bold"><MapPin /> North Houston</div>
-            <p>1234 North Freeway, Houston, TX 77009</p>
-            <button className="underline font-semibold" onClick={() => window.location.href = 'tel:2815550101'}>Call: (281) 555-0101</button>
+            <p className="text-sm text-foreground/80">1234 North Freeway, Houston, TX 77009</p>
+            <button className="underline font-semibold text-accent" onClick={() => window.location.href = 'tel:2815550101'}>Call: (281) 555-0101</button>
             <div className="flex items-center gap-2 text-sm text-foreground/70"><Clock size={16} /> Open Daily: 10am - 8pm</div>
         </div>
-        <div className="p-6 border border-accent rounded-xl space-y-4">
+        <div className="p-6 border border-accent rounded-xl space-y-4 shadow-sm bg-card">
             <div className="flex items-center gap-2 text-primary-cta font-bold"><MapPin /> West Houston</div>
-            <p>5678 Westheimer Rd, Houston, TX 77056</p>
-            <button className="underline font-semibold" onClick={() => window.location.href = 'tel:7135550202'}>Call: (713) 555-0202</button>
+            <p className="text-sm text-foreground/80">5678 Westheimer Rd, Houston, TX 77056</p>
+            <button className="underline font-semibold text-accent" onClick={() => window.location.href = 'tel:7135550202'}>Call: (713) 555-0202</button>
             <div className="flex items-center gap-2 text-sm text-foreground/70"><Clock size={16} /> Open Daily: 10am - 8pm</div>
         </div>
+    </div>
+    <div className="flex flex-wrap justify-center gap-6 pb-12 text-sm">
+        <div className="flex items-center gap-2 font-medium"><ShieldCheck className="text-primary-cta" /> 5-Year Warranty</div>
+        <div className="flex items-center gap-2 font-medium"><Truck className="text-primary-cta" /> Fast Delivery</div>
+        <div className="flex items-center gap-2 font-medium"><CreditCard className="text-primary-cta" /> Easy Financing</div>
     </div>
   </div>
 
